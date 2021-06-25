@@ -40,6 +40,7 @@ section {
     display: inline-block;
     margin: auto;
     background-color: transparent;
+    border-radius: 50%;
     cursor: pointer;
 }
 
@@ -130,11 +131,16 @@ label[for="drop-nav"] {
 
 .about {
     text-align: center;
+    background-color: rgb(63, 191, 191, 0.8);
 }
+
 
 .about .about-img {
     border-radius: 50%;
+    height: 400px;
+    width: 400px;
 }
+
 
 .about p {
     max-width: 700px;
@@ -188,6 +194,11 @@ label[for="drop-nav"] {
 } 
 
 /* Contact section styles */
+
+
+.contact {
+    background-color: rgb(63, 191, 191, 0.8);
+}
 
 .contact form {
     max-width: 700px;
